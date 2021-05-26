@@ -1,8 +1,8 @@
-name: Build bootstrap page
+name: Build and deploy GH
 on:
   push:
     branches:
-      - feature/bootstrap-page-action
+      - feature
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
